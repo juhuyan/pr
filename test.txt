@@ -1,0 +1,17 @@
+
+user@DESKTOP-LPIM672 MINGW64 /d/HUB/pr (branch1)
+$ ls
+README.md  branch1t2.txt  code/  data/  test1.txt  test2.txt  testb1.txt
+
+user@DESKTOP-LPIM672 MINGW64 /d/HUB/pr (branch1)
+$ gi checkout main
+bash: gi: command not found
+
+user@DESKTOP-LPIM672 MINGW64 /d/HUB/pr (branch1)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+user@DESKTOP-LPIM672 MINGW64 /d/HUB/pr (main)
+$ git branch
+  branch* main
